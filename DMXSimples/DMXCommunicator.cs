@@ -95,29 +95,31 @@ namespace BrunoDPO.DMX
 		/// <summary>
 		/// Get a parameter value
 		/// </summary>
-		/// <param name="index">Parameter index between 1 and 512</param>
+		/// <param name="index">Parameter index between 0 and 511</param>
 		/// <returns>Parameter value in bytes</returns>
-		/// <exception cref="IndexOutOfRangeException">If the index is not between 1 and 512</exception>
+		/// <exception cref="IndexOutOfRangeException">If the index is not between 0 and 511</exception>
 		public byte GetByte(int index)
 		{
-			if (index < 1 || index > 512)
-				throw new IndexOutOfRangeException("Index is not between 1 and 512");
+			if (index < 0 || index > 511)
+				throw new IndexOutOfRangeException("Index is not between 0 and 511");
 
 			lock (this)
 			{
-				return buffer[index];
+				return buffer[index + 1];
 			}
 		}
 
 		/// <summary>
 		/// Get all the parameter values
 		/// </summary>
-		/// <returns>The entire 513 vector</returns>
+		/// <returns>All 512 parameters as a vector</returns>
 		public byte[] GetBytes()
 		{
+			byte[] newBuffer = new byte[512];
 			lock (this)
 			{
-				return buffer;
+				Array.Copy(buffer, 1, newBuffer, 0, 512);
+				return newBuffer;
 			}
 		}
 
@@ -160,35 +162,33 @@ namespace BrunoDPO.DMX
 		/// <summary>
 		/// Update a parameter value
 		/// </summary>
-		/// <param name="index">Parameter index between 1 and 512</param>
+		/// <param name="index">Parameter index between 0 and 511</param>
 		/// <param name="value">Parameter value</param>
 		/// <exception cref="IndexOutOfRangeException">If the index is not between 1 and 512</exception>
 		public void SetByte(int index, byte value)
 		{
-			if (index < 1 || index > 512)
-				throw new IndexOutOfRangeException("Index is not between 1 and 512");
+			if (index < 0 || index > 511)
+				throw new IndexOutOfRangeException("Index is not between 0 and 511");
 
 			lock (this)
 			{
-				buffer[index] = value;
+				buffer[index + 1] = value;
 			}
 		}
 
 		/// <summary>
 		/// Update all parameter values
 		/// </summary>
-		/// <param name="bytes">A 513 element vector with the first one being a zero</param>
-		/// <exception cref="ArgumentException">If the byte vector sent does not contain 513 elements</exception>
+		/// <param name="bytes">A byte vector containing 512 elements</param>
+		/// <exception cref="ArgumentException">If the byte vector sent does not contain 512 elements</exception>
 		public void SetBytes(byte[] newBuffer)
 		{
-			if (newBuffer.Length != 513)
-				throw new ArgumentException("This byte vector does not contain 513 elements", "newBuffer");
+			if (newBuffer.Length != 512)
+				throw new ArgumentException("This byte vector does not contain 512 elements", "newBuffer");
 
-
-			newBuffer[0] = 0; // Grants that the first byte will be a zero
 			lock (this)
 			{
-				this.buffer = newBuffer;
+				Array.Copy(newBuffer, 0, buffer, 1, 512);
 			}
 		}
 
@@ -198,13 +198,12 @@ namespace BrunoDPO.DMX
 		public void Start()
 		{
 			// Prevents it from being started more than once
-			if (this.isActive)
-				return;
-
-			if (serialPort != null && !serialPort.IsOpen)
-				serialPort.Open();
 			lock (this)
 			{
+				if (this.isActive)
+					return;
+				if (serialPort != null && !serialPort.IsOpen)
+					serialPort.Open();
 				this.isActive = true;
 			}
 			senderThread = new Thread(this.SendBytes);
@@ -217,11 +216,10 @@ namespace BrunoDPO.DMX
 		public void Stop()
 		{
 			// Prevents it from being stopped more than once
-			if (!this.isActive)
-				return;
-
 			lock (this)
 			{
+				if (!this.isActive)
+					return;
 				this.isActive = false;
 			}
 			senderThread.Join(1000);

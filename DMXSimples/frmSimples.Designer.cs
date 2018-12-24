@@ -486,7 +486,7 @@
 			this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar1.Size = new System.Drawing.Size(45, 160);
 			this.trackBar1.TabIndex = 0;
-			this.trackBar1.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar1.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar2
 			// 
@@ -497,7 +497,7 @@
 			this.trackBar2.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar2.Size = new System.Drawing.Size(45, 160);
 			this.trackBar2.TabIndex = 1;
-			this.trackBar2.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar2.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar3
 			// 
@@ -508,7 +508,7 @@
 			this.trackBar3.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar3.Size = new System.Drawing.Size(45, 160);
 			this.trackBar3.TabIndex = 2;
-			this.trackBar3.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar3.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar4
 			// 
@@ -519,7 +519,7 @@
 			this.trackBar4.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar4.Size = new System.Drawing.Size(45, 160);
 			this.trackBar4.TabIndex = 3;
-			this.trackBar4.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar4.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar5
 			// 
@@ -530,7 +530,7 @@
 			this.trackBar5.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar5.Size = new System.Drawing.Size(45, 160);
 			this.trackBar5.TabIndex = 4;
-			this.trackBar5.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar5.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar6
 			// 
@@ -541,7 +541,7 @@
 			this.trackBar6.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar6.Size = new System.Drawing.Size(45, 160);
 			this.trackBar6.TabIndex = 5;
-			this.trackBar6.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar6.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar7
 			// 
@@ -552,7 +552,7 @@
 			this.trackBar7.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar7.Size = new System.Drawing.Size(45, 160);
 			this.trackBar7.TabIndex = 6;
-			this.trackBar7.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar7.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar8
 			// 
@@ -563,7 +563,7 @@
 			this.trackBar8.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar8.Size = new System.Drawing.Size(45, 160);
 			this.trackBar8.TabIndex = 7;
-			this.trackBar8.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar8.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar9
 			// 
@@ -574,7 +574,7 @@
 			this.trackBar9.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar9.Size = new System.Drawing.Size(45, 160);
 			this.trackBar9.TabIndex = 8;
-			this.trackBar9.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar9.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar10
 			// 
@@ -585,7 +585,7 @@
 			this.trackBar10.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar10.Size = new System.Drawing.Size(45, 160);
 			this.trackBar10.TabIndex = 9;
-			this.trackBar10.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar10.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar11
 			// 
@@ -596,7 +596,7 @@
 			this.trackBar11.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar11.Size = new System.Drawing.Size(45, 160);
 			this.trackBar11.TabIndex = 10;
-			this.trackBar11.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar11.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar12
 			// 
@@ -607,7 +607,7 @@
 			this.trackBar12.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar12.Size = new System.Drawing.Size(45, 160);
 			this.trackBar12.TabIndex = 11;
-			this.trackBar12.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar12.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar13
 			// 
@@ -618,7 +618,7 @@
 			this.trackBar13.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar13.Size = new System.Drawing.Size(45, 160);
 			this.trackBar13.TabIndex = 12;
-			this.trackBar13.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar13.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar14
 			// 
@@ -629,7 +629,7 @@
 			this.trackBar14.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar14.Size = new System.Drawing.Size(45, 160);
 			this.trackBar14.TabIndex = 13;
-			this.trackBar14.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar14.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar15
 			// 
@@ -640,7 +640,7 @@
 			this.trackBar15.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar15.Size = new System.Drawing.Size(45, 160);
 			this.trackBar15.TabIndex = 14;
-			this.trackBar15.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar15.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar16
 			// 
@@ -651,7 +651,7 @@
 			this.trackBar16.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar16.Size = new System.Drawing.Size(45, 160);
 			this.trackBar16.TabIndex = 15;
-			this.trackBar16.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar16.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// numericUpDown1
 			// 
@@ -665,7 +665,7 @@
 			this.numericUpDown1.Name = "numericUpDown1";
 			this.numericUpDown1.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown1.TabIndex = 64;
-			this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown1.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown2
 			// 
@@ -679,7 +679,7 @@
 			this.numericUpDown2.Name = "numericUpDown2";
 			this.numericUpDown2.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown2.TabIndex = 65;
-			this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown2.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown3
 			// 
@@ -693,7 +693,7 @@
 			this.numericUpDown3.Name = "numericUpDown3";
 			this.numericUpDown3.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown3.TabIndex = 66;
-			this.numericUpDown3.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown3.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown4
 			// 
@@ -707,7 +707,7 @@
 			this.numericUpDown4.Name = "numericUpDown4";
 			this.numericUpDown4.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown4.TabIndex = 67;
-			this.numericUpDown4.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown4.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown5
 			// 
@@ -721,7 +721,7 @@
 			this.numericUpDown5.Name = "numericUpDown5";
 			this.numericUpDown5.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown5.TabIndex = 68;
-			this.numericUpDown5.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown5.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown6
 			// 
@@ -735,7 +735,7 @@
 			this.numericUpDown6.Name = "numericUpDown6";
 			this.numericUpDown6.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown6.TabIndex = 69;
-			this.numericUpDown6.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown6.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown7
 			// 
@@ -749,7 +749,7 @@
 			this.numericUpDown7.Name = "numericUpDown7";
 			this.numericUpDown7.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown7.TabIndex = 70;
-			this.numericUpDown7.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown7.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown8
 			// 
@@ -763,7 +763,7 @@
 			this.numericUpDown8.Name = "numericUpDown8";
 			this.numericUpDown8.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown8.TabIndex = 71;
-			this.numericUpDown8.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown8.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown9
 			// 
@@ -777,7 +777,7 @@
 			this.numericUpDown9.Name = "numericUpDown9";
 			this.numericUpDown9.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown9.TabIndex = 72;
-			this.numericUpDown9.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown9.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown10
 			// 
@@ -791,7 +791,7 @@
 			this.numericUpDown10.Name = "numericUpDown10";
 			this.numericUpDown10.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown10.TabIndex = 73;
-			this.numericUpDown10.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown10.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown11
 			// 
@@ -805,7 +805,7 @@
 			this.numericUpDown11.Name = "numericUpDown11";
 			this.numericUpDown11.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown11.TabIndex = 74;
-			this.numericUpDown11.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown11.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown12
 			// 
@@ -819,7 +819,7 @@
 			this.numericUpDown12.Name = "numericUpDown12";
 			this.numericUpDown12.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown12.TabIndex = 75;
-			this.numericUpDown12.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown12.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown13
 			// 
@@ -833,7 +833,7 @@
 			this.numericUpDown13.Name = "numericUpDown13";
 			this.numericUpDown13.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown13.TabIndex = 76;
-			this.numericUpDown13.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown13.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown14
 			// 
@@ -847,7 +847,7 @@
 			this.numericUpDown14.Name = "numericUpDown14";
 			this.numericUpDown14.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown14.TabIndex = 77;
-			this.numericUpDown14.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown14.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown15
 			// 
@@ -861,7 +861,7 @@
 			this.numericUpDown15.Name = "numericUpDown15";
 			this.numericUpDown15.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown15.TabIndex = 78;
-			this.numericUpDown15.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown15.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown16
 			// 
@@ -875,7 +875,7 @@
 			this.numericUpDown16.Name = "numericUpDown16";
 			this.numericUpDown16.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown16.TabIndex = 79;
-			this.numericUpDown16.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown16.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// label17
 			// 
@@ -1062,7 +1062,7 @@
 			this.trackBar17.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar17.Size = new System.Drawing.Size(45, 160);
 			this.trackBar17.TabIndex = 16;
-			this.trackBar17.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar17.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar18
 			// 
@@ -1073,7 +1073,7 @@
 			this.trackBar18.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar18.Size = new System.Drawing.Size(45, 160);
 			this.trackBar18.TabIndex = 17;
-			this.trackBar18.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar18.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar19
 			// 
@@ -1084,7 +1084,7 @@
 			this.trackBar19.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar19.Size = new System.Drawing.Size(45, 160);
 			this.trackBar19.TabIndex = 18;
-			this.trackBar19.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar19.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar20
 			// 
@@ -1095,7 +1095,7 @@
 			this.trackBar20.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar20.Size = new System.Drawing.Size(45, 160);
 			this.trackBar20.TabIndex = 19;
-			this.trackBar20.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar20.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar21
 			// 
@@ -1106,7 +1106,7 @@
 			this.trackBar21.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar21.Size = new System.Drawing.Size(45, 160);
 			this.trackBar21.TabIndex = 20;
-			this.trackBar21.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar21.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar22
 			// 
@@ -1117,7 +1117,7 @@
 			this.trackBar22.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar22.Size = new System.Drawing.Size(45, 160);
 			this.trackBar22.TabIndex = 21;
-			this.trackBar22.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar22.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar23
 			// 
@@ -1128,7 +1128,7 @@
 			this.trackBar23.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar23.Size = new System.Drawing.Size(45, 160);
 			this.trackBar23.TabIndex = 22;
-			this.trackBar23.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar23.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar24
 			// 
@@ -1139,7 +1139,7 @@
 			this.trackBar24.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar24.Size = new System.Drawing.Size(45, 160);
 			this.trackBar24.TabIndex = 23;
-			this.trackBar24.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar24.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar25
 			// 
@@ -1150,7 +1150,7 @@
 			this.trackBar25.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar25.Size = new System.Drawing.Size(45, 160);
 			this.trackBar25.TabIndex = 24;
-			this.trackBar25.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar25.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar26
 			// 
@@ -1161,7 +1161,7 @@
 			this.trackBar26.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar26.Size = new System.Drawing.Size(45, 160);
 			this.trackBar26.TabIndex = 25;
-			this.trackBar26.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar26.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar27
 			// 
@@ -1172,7 +1172,7 @@
 			this.trackBar27.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar27.Size = new System.Drawing.Size(45, 160);
 			this.trackBar27.TabIndex = 26;
-			this.trackBar27.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar27.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar28
 			// 
@@ -1183,7 +1183,7 @@
 			this.trackBar28.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar28.Size = new System.Drawing.Size(45, 160);
 			this.trackBar28.TabIndex = 27;
-			this.trackBar28.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar28.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar29
 			// 
@@ -1194,7 +1194,7 @@
 			this.trackBar29.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar29.Size = new System.Drawing.Size(45, 160);
 			this.trackBar29.TabIndex = 28;
-			this.trackBar29.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar29.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar30
 			// 
@@ -1205,7 +1205,7 @@
 			this.trackBar30.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar30.Size = new System.Drawing.Size(45, 160);
 			this.trackBar30.TabIndex = 29;
-			this.trackBar30.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar30.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar31
 			// 
@@ -1216,7 +1216,7 @@
 			this.trackBar31.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar31.Size = new System.Drawing.Size(45, 160);
 			this.trackBar31.TabIndex = 30;
-			this.trackBar31.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar31.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// trackBar32
 			// 
@@ -1227,7 +1227,7 @@
 			this.trackBar32.Orientation = System.Windows.Forms.Orientation.Vertical;
 			this.trackBar32.Size = new System.Drawing.Size(45, 160);
 			this.trackBar32.TabIndex = 31;
-			this.trackBar32.Scroll += new System.EventHandler(this.trackBar_Scroll);
+			this.trackBar32.Scroll += new System.EventHandler(this.TrackBar_Scroll);
 			// 
 			// numericUpDown17
 			// 
@@ -1241,7 +1241,7 @@
 			this.numericUpDown17.Name = "numericUpDown17";
 			this.numericUpDown17.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown17.TabIndex = 80;
-			this.numericUpDown17.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown17.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown18
 			// 
@@ -1255,7 +1255,7 @@
 			this.numericUpDown18.Name = "numericUpDown18";
 			this.numericUpDown18.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown18.TabIndex = 81;
-			this.numericUpDown18.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown18.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown19
 			// 
@@ -1269,7 +1269,7 @@
 			this.numericUpDown19.Name = "numericUpDown19";
 			this.numericUpDown19.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown19.TabIndex = 82;
-			this.numericUpDown19.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown19.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown20
 			// 
@@ -1283,7 +1283,7 @@
 			this.numericUpDown20.Name = "numericUpDown20";
 			this.numericUpDown20.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown20.TabIndex = 83;
-			this.numericUpDown20.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown20.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown21
 			// 
@@ -1297,7 +1297,7 @@
 			this.numericUpDown21.Name = "numericUpDown21";
 			this.numericUpDown21.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown21.TabIndex = 84;
-			this.numericUpDown21.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown21.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown22
 			// 
@@ -1311,7 +1311,7 @@
 			this.numericUpDown22.Name = "numericUpDown22";
 			this.numericUpDown22.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown22.TabIndex = 85;
-			this.numericUpDown22.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown22.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown23
 			// 
@@ -1325,7 +1325,7 @@
 			this.numericUpDown23.Name = "numericUpDown23";
 			this.numericUpDown23.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown23.TabIndex = 86;
-			this.numericUpDown23.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown23.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown24
 			// 
@@ -1339,7 +1339,7 @@
 			this.numericUpDown24.Name = "numericUpDown24";
 			this.numericUpDown24.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown24.TabIndex = 87;
-			this.numericUpDown24.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown24.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown25
 			// 
@@ -1353,7 +1353,7 @@
 			this.numericUpDown25.Name = "numericUpDown25";
 			this.numericUpDown25.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown25.TabIndex = 88;
-			this.numericUpDown25.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown25.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown26
 			// 
@@ -1367,7 +1367,7 @@
 			this.numericUpDown26.Name = "numericUpDown26";
 			this.numericUpDown26.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown26.TabIndex = 89;
-			this.numericUpDown26.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown26.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown27
 			// 
@@ -1381,7 +1381,7 @@
 			this.numericUpDown27.Name = "numericUpDown27";
 			this.numericUpDown27.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown27.TabIndex = 90;
-			this.numericUpDown27.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown27.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown28
 			// 
@@ -1395,7 +1395,7 @@
 			this.numericUpDown28.Name = "numericUpDown28";
 			this.numericUpDown28.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown28.TabIndex = 91;
-			this.numericUpDown28.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown28.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown29
 			// 
@@ -1409,7 +1409,7 @@
 			this.numericUpDown29.Name = "numericUpDown29";
 			this.numericUpDown29.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown29.TabIndex = 92;
-			this.numericUpDown29.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown29.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown30
 			// 
@@ -1423,7 +1423,7 @@
 			this.numericUpDown30.Name = "numericUpDown30";
 			this.numericUpDown30.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown30.TabIndex = 93;
-			this.numericUpDown30.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown30.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown31
 			// 
@@ -1437,7 +1437,7 @@
 			this.numericUpDown31.Name = "numericUpDown31";
 			this.numericUpDown31.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown31.TabIndex = 94;
-			this.numericUpDown31.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown31.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// numericUpDown32
 			// 
@@ -1451,7 +1451,7 @@
 			this.numericUpDown32.Name = "numericUpDown32";
 			this.numericUpDown32.Size = new System.Drawing.Size(45, 20);
 			this.numericUpDown32.TabIndex = 95;
-			this.numericUpDown32.ValueChanged += new System.EventHandler(this.numericUpDown_ValueChanged);
+			this.numericUpDown32.ValueChanged += new System.EventHandler(this.NumericUpDown_ValueChanged);
 			// 
 			// cbxSerialPort
 			// 
