@@ -6,7 +6,7 @@ namespace BrunoDPO.DMX
 {
 	public partial class frmSimples : Form
 	{
-		private byte[] buffer = new byte[513];
+		private byte[] buffer = new byte[512];
 		private DMXCommunicator dmxCommunicator = null;
 
 		public frmSimples()
@@ -14,13 +14,11 @@ namespace BrunoDPO.DMX
 			InitializeComponent();
 			this.Icon = BrunoDPO.DMX.Properties.Resources.Icon;
 
-			buffer[0] = 0;
-
 			var portsList = DMXCommunicator.GetValidSerialPorts();
 			cbxSerialPort.DataSource = new BindingSource(portsList, null);
 		}
 
-		private void trackBar_Scroll(object sender, EventArgs e)
+		private void TrackBar_Scroll(object sender, EventArgs e)
 		{
 			var trackBar = sender as TrackBar;
 			var position = Convert.ToInt16(trackBar.Name.Substring(8));
@@ -30,7 +28,7 @@ namespace BrunoDPO.DMX
 				numericUpDown.Value = trackBar.Value;
 		}
 
-		private void numericUpDown_ValueChanged(object sender, EventArgs e)
+		private void NumericUpDown_ValueChanged(object sender, EventArgs e)
 		{
 			var numericUpDown = sender as NumericUpDown;
 			var position = Convert.ToInt16(numericUpDown.Name.Substring(13));
@@ -41,7 +39,7 @@ namespace BrunoDPO.DMX
 
 			buffer[position] = Convert.ToByte(numericUpDown.Value);
 			if (dmxCommunicator != null)
-				dmxCommunicator.SetByte(position, Convert.ToByte(numericUpDown.Value));
+				dmxCommunicator.SetByte(position - 1, Convert.ToByte(numericUpDown.Value));
 		}
 
 		private void btnStart_Click(object sender, EventArgs e)
